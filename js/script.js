@@ -69,7 +69,6 @@ function handleSubmit(event) {
             `
             
         }); 
-{/* <div id="lib"'>${post.imdbID}</div> */}
 
         document.getElementById('pret').innerHTML = output;
     })
