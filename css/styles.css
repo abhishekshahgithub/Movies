@@ -1,0 +1,193 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: #000;
+  }
+
+  .header h1 {
+    color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .wrapper {
+    max-width: 1200px!important;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    display: block;
+    float: none;
+    }
+  
+  .row{
+      float: left;
+      width: 18%;
+      margin-left: 1%;
+      margin-right: 1%;
+      overflow: hidden;
+      overflow-y: hidden;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+  }
+  
+   .row img {
+      min-height: 114px;
+      width: 100%;
+      height: 270px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+  
+   .mi-title {
+       width: 75%;
+       float: left;
+   }
+  
+   .row p {
+       font-size: 9px;
+       font-weight: 600;
+       color: #fff;
+   }
+  
+   .mi-year p {
+       right: 0;
+       float: right;
+   }
+  
+   .mi-year {
+       width: 25%;
+       float: right;
+   }
+  
+  
+  
+   .footer-disc {
+      width: 60%;
+      float: left;
+      border-top: solid #fff;
+   }
+  
+   .footer-social {
+      width: 40%;
+      float: left;
+      border-top: solid #fff;
+
+   }
+  
+   .footer-social p {
+      padding-left: 70%;
+   }
+  
+   .footer-social h3 {
+      padding-left:55%;
+      color: #fff;
+   }
+  
+   .footer p {
+      color: #fff;
+   }
+  
+   ul li {
+       list-style: none;
+       display: inline;
+       padding: 3%;
+       float: right;
+   }
+  
+   .footer-disc {
+       padding-top: 20px;
+   }
+  
+   .footer-social {
+       padding-top: 20px;
+   }
+  
+   .pret:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    .output:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    @media screen and (max-width: 1148px) {
+      .row {
+          width: 23%;
+      }
+    }
+    
+    @media screen and (max-width: 401px) {
+      .footer {
+        position: absolute;
+        top: 1200px;
+        left: 122px;
+      }
+    }
+  
+  .container {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    /* display: flex;
+    align-items: center; */
+  }
+  
+  .searchForm {
+    background-color: #292929;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    margin-top: 2%;
+  }
+  
+  .searchForm-input {
+    background-color: #292929;
+    border: none;
+    height: 44px;
+    width: 76vw;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .resultItem {
+    opacity: 0;
+    margin-bottom: 20px;
+    animation: show 0.5s forwards ease-in-out;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .resultItem:hover {
+    background-color: #434343;
+  }
+  
+  .resultItem-title {
+    margin-bottom: 4px;
+  }
+  
+  .resultItem-title a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .resultItem-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .resultItem-snippet, .resultItem-link {
+    color: #c2c2c2;
+    font-size: 13px;
+  }
+  
+
